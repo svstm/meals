@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  margin-top: 55px;
+}
+.searchbar {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.results {
+  margin-top: 70px;
+  display: grid;
+  row-gap: 5px;
+  column-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  align-items: center;
+  justify-items: center;
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.title {
+  width: 150px;
+}
+
+body {
+  width: 100vw;
+}
+
+body {
+  height: 200vh;
+}
+
+#black {
+  background-color: black;
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: min-content;
+}
+
+.ingredients {
+  margin-left: 20px;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(auto-fill, minmax(1.5rem, 1fr));
+  column-gap: 5px;
+}
+.img_modal {
+  margin: 20px;
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.instructions {
+  width: 500px;
+  padding-right: 30px;
+  margin: 20px;
+  grid-column: 2/3;
+  grid-row: 1/4;
+}
