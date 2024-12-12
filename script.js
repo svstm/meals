@@ -97,7 +97,7 @@ function show_more(element) {
   close.style.backgroundSize = "contain";
   close.style.width = "20px";
   close.style.height = "20px";
-  close.style.position = "absolute";
+  close.style.position = "fixed";
   close.style.top = "10px";
   close.style.right = "10px";
   close.addEventListener("click", () => {
